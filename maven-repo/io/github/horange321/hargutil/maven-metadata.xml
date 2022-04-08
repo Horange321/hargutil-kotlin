@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
-  <groupId>horange.hargutil</groupId>
+  <groupId>io.github.horange321</groupId>
   <artifactId>hargutil</artifactId>
   <versioning>
     <release>1.1.3</release>
     <versions>
       <version>1.1.3</version>
     </versions>
-    <lastUpdated>20220408064930</lastUpdated>
+    <lastUpdated>20220408070545</lastUpdated>
   </versioning>
 </metadata>
