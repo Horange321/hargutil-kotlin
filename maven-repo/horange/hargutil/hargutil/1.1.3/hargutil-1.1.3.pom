@@ -37,7 +37,6 @@
     </dependencies>
 
     <build>
-        <defaultGoal>compile</defaultGoal>
         <plugins>
             <plugin>
                 <groupId>org.jetbrains.kotlin</groupId>
@@ -90,6 +89,7 @@
 <!--                </executions>-->
 <!--            </plugin>-->
         </plugins>
+        <defaultGoal>compile</defaultGoal>
     </build>
 
     <licenses>

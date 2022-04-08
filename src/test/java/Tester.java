@@ -13,6 +13,6 @@ public class Tester {
 
     public static void main(String[] args) {
         test(Tester1.class);
-        test(Tester2.class);
+//        test(Tester2.class);
     }
 }
