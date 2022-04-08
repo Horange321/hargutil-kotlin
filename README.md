@@ -7,16 +7,16 @@ Read [Chinese version](./README-zh.md) if possible.\
 The package can be installed through maven and gradle (this is the recommended method)
 ```maven
 <dependency>
-    <groupId>horange.hargutil</groupId>
+    <groupId>io.github.horange321</groupId>
     <artifactId>hargutil</artifactId>
-    <version>1.1.1</version>
+    <version>1.1.3</version>
 </dependency>
 ```
 Also need to add repository.
 ```maven
 <repository>
     <id>github-hargutil</id>
-    <url></url>
+    <url>https://horange321.github.io/hargutil-kotlin/maven-repo</url>
 </repository>
 ```
 Or downloading the release from [maven]() or Github
