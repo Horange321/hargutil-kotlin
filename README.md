@@ -35,14 +35,14 @@ Args instructions:\
 `map` For convincing of using. Depend by yourself.\
 Example:
 ```Java
-hargs.add('v', 'version', 'v') \
-    .add('f', 'file', 'f') \
-    .add('o', 'output', 'o') \
-    .add('', 'force', 'ff') \
-#   ... ...
+hargs.add('v', 'version', 'v')
+    .add('f', 'file', 'f')
+    .add('o', 'output', 'o')
+    .add('', 'force', 'ff')
+//  ... ...
 ```
-It's worth noticing that `short` and `long` can't be `''` at the same time.\
-`map` can't be `''`
+It's worth noticing that `short` and `long` can't be `"""` at the same time.\
+`map` can't be `""`
 
 ### Hargs.toMap()
 Then `hargs` can be transformed into `Map<String, String>`:\
@@ -57,3 +57,4 @@ Example:\
     "o": "output.txt",
     "ff": ""
 }
+```
