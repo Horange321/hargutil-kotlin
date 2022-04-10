@@ -1,5 +1,5 @@
 # hargutil
-A tool for dealing args.
+A tool for dealing args.\
 Read [Chinese version](./README-zh.md) if possible.\
 请尽可能看[中文版本](./README-zh.md)。
 
@@ -19,12 +19,12 @@ Also need to add repository.
     <url>https://horange321.github.io/hargutil-kotlin/maven-repo</url>
 </repository>
 ```
-Or downloading the release from [maven]() or Github
+Or downloading the release from [maven]() or [Github](https://github.com/Horange321/hargutil-kotlin)
 
 ## Usage
 ### New
 First, create a `Hargs` class:\
-Java: `Hargs argv = new Hargs(args);`\
+Java: `final Hargs argv = new Hargs(args);`\
 Kotlin: `val argv = Hargs(args)`
 
 ### Hargs.add()
@@ -41,7 +41,7 @@ hargs.add('v', 'version', 'v')
     .add('', 'force', 'ff')
 //  ... ...
 ```
-It's worth noticing that `short` and `long` can't be `"""` at the same time.\
+It's worth noticing that `short` and `long` can't be `""` at the same time.\
 `map` can't be `""`
 
 ### Hargs.toMap()
